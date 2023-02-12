@@ -7,13 +7,13 @@ Within the script you can find 1 function. Uncomment the one which you like to t
 ## 3. Example run function
 #Use function(capture device) / usually 0 or 1
 
-live_cartoon(1)
+live_detection(1)
 
 ## 4. License
 
-"opencv-cartoon-generator" is a free application that can be used to make livestream or image cartoon like.
+"opencv-pedestrian-detector" is a free application that can be used to make livestream or image cartoon like.
 
-Copyright (C) 2023 Tom Slenter
+Copyright (C) 2021 Tom Slenter
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
