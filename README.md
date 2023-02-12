@@ -1,5 +1,5 @@
 ## 1. opencv-pedestrian-detector
-Early concept for a pedestrian detection
+Early concept for a pedestrian detection using a Webcam Livestream.
 
 ## 2. How to run
 Within the script you can find 1 function. Uncomment the one which you like to try, and run the script: capture_functions.py
