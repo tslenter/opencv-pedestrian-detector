@@ -6,11 +6,13 @@ Within the script you can find 2 functions. Uncomment the one which you like to 
 
 ## 3. Example run function
 #Use function(capture device) / usually 0 or 1
+```
 live_detection(1)
-
+```
 #Use function(image_file)
+```
 image_detection("example.jpg")
-
+```
 ## 4. Example output
 ![alt text](https://github.com/tslenter/opencv-pedestrian-detector/blob/main/example_detection.jpg?raw=true)
 
