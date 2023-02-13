@@ -2,7 +2,7 @@
 Early concept for a pedestrian detection using a Webcam Livestream.
 
 ## 2. How to run
-Within the script you can find 1 function. Uncomment the one which you like to try, and run the script: capture_functions.py
+Within the script you can find 2 functions. Uncomment the one which you like to try, and run the script: capture_functions.py
 
 ## 3. Example run function
 #Use function(capture device) / usually 0 or 1
