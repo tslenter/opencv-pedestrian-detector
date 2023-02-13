@@ -16,10 +16,14 @@ image_detection("example.jpg")
 
 ## 5. How to use
 It probably does not work out of the box. Please change the the values within:
+```
 explain (regions, _) = hog.detectMultiScale(image, winStride=(5,5,), padding=(20,20),scale=1.20)
+```
 
 Explanation:
+```
 The winStride argument specifies the step size in the x and y directions, respectively, for scanning the image. The padding argument is used to add padding around the image in order to detect partially visible objects. The scale argument is used to rescale the image prior to object detection. The function returns a list of rectangles (represented by the x, y, width, and height of the rectangles) that enclose the detected objects in the image. The rectangles are stored in the output argument regions.
+```
 
 ## 6. License
 
