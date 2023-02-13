@@ -28,7 +28,7 @@ The winStride argument specifies the step size in the x and y directions, respec
 
 ## 6. License
 
-"opencv-pedestrian-detector" is a free application that can be used to make livestream or image cartoon like.
+"opencv-pedestrian-detector" is a free application that can be used to detect pedestrian with an camera or webcam.
 
 Copyright (C) 2021 Tom Slenter
 
