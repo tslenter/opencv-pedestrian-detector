@@ -32,5 +32,21 @@ def live_detection(capture_device):
     cap.release()
     cv2.destroyAllWindows()
 
+def image_detection(image):
+
+    image = cv2.imread(image)
+    image = imutils.resize(image, width=min(400, image.shape[1]))
+    (regions, _) = hog.detectMultiScale(image, winStride=(5,5,), padding=(20,20),scale=1.20)
+    for (x,y,w,h) in regions:
+        cv2.rectangle(image,(x,y), (x+w, y+h), (0,255,255),2)
+
+    cv2.imshow("Image", image)
+
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
 #Use function(capture device) / usually 0 or 1
 #live_detection(1)
+
+#Use function(image_file)
+image_detection("example.jpg")
