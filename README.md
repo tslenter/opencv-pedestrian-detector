@@ -9,6 +9,8 @@ Within the script you can find 2 functions. Uncomment the one which you like to 
 
 live_detection(1)
 
+image_detection("example.jpg")
+
 ## 4. License
 
 "opencv-pedestrian-detector" is a free application that can be used to make livestream or image cartoon like.
