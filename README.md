@@ -11,7 +11,10 @@ live_detection(1)
 #Use function(image_file)
 image_detection("example.jpg")
 
-## 4. License
+## 4. Example output
+![alt text](https://github.com/tslenter/opencv-pedestrian-detector/blob/main/example_detection.jpg?raw=true)
+
+## 5. License
 
 "opencv-pedestrian-detector" is a free application that can be used to make livestream or image cartoon like.
 
