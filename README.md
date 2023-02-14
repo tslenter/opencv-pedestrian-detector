@@ -19,7 +19,7 @@ image_detection("example.jpg")
 ## 5. How to use
 It probably does not work out of the box. Please change the the values within:
 ```
-explain (regions, _) = hog.detectMultiScale(image, winStride=(5,5,), padding=(20,20),scale=1.20)
+(regions, _) = hog.detectMultiScale(image, winStride=(5,5,), padding=(20,20),scale=1.20)
 ```
 
 ### Explanation:
